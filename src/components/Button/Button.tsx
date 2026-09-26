@@ -37,8 +37,7 @@ export function Button({
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`${base} ${variants[variant]} ${sizes[size]} ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
-    >
+      className={`${base} ${variants[variant]} ${sizes[size]} ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}>
       {children}
     </button>
   );
